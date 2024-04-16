@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Castoro+Titling&family=Instrument+Serif&family=Karla:ital@1&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Error"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Eduford University is committed to delivering high-quality education that empowers students to excel in their
+            chosen fields. Our courses are meticulously designed to foster creativity, critical thinking, and real-world
+            skills, ensuring that graduates are well-prepared to tackle the challenges of the modern world.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Intermediate Programs at Eduford serve as the building blocks for your academic journey. We offer a
+                    variety of streams to choose from, allowing you to discover your passions and interests. Our
+                    experienced faculty ensures that you receive a strong academic foundation while encouraging
+                    curiosity and creativity.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Our Degree programs are designed to provide you with an in-depth understanding of your chosen field
+                    of study. We believe in holistic education that goes beyond textbooks. In addition to rigorous
+                    academic coursework, our Degree programs emphasize practical learning, research, and skill
+                    development.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Post Graduation at Amity is your gateway to advanced knowledge and specialization. Our Post
+                    Graduation programs are tailored to meet the demands of the ever-evolving global landscape. We offer
+                    a wide range of master's and doctoral programs that allow you to delve deeper into your area of
+                    expertise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>At Eduford University, we take pride in providing state-of-the-art facilities that enhance the learning and
+            living experience of our students. Our world-class library, expansive playgrounds, and delightful cafeteria
+            create an enriching environment that fosters holistic development. We believe that an exceptional
+            educational journey goes beyond classrooms, and our top-notch facilities are a testament to our commitment
+            to students' overall well-being and success.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="Error">
+                <h3>World Class library</h3>
+                <p>Our world-class library is a treasure trove of knowledge, offering an extensive collection of books,
+                    journals, and digital resources. It's a haven for research, study, and exploration, providing
+                    students with access to a wealth of information and academic support. Whether you're diving into
+                    textbooks or seeking quiet contemplation, our library is your gateway to academic excellence.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="Error">
+                <h3>Largest Playground</h3>
+                <p>At Eduford University, we understand the importance of a balanced education. Our expansive playground
+                    is not just a space for recreation but a platform for holistic development. It's where students come
+                    to unwind, participate in sports, and nurture their physical and mental well-being. With a sprawling
+                    area, state-of-the-art equipment, and professional coaches, our playground is where students
+                    discover their passions beyond the classroom.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="Error">
+                <h3>Tasty and Healty Food</h3>
+                <p>Good food is the cornerstone of a healthy and productive life. Our cafeteria is more than just a
+                    place to grab a meal; it's a culinary experience. We take pride in serving delicious and nutritious
+                    food prepared with care. From diverse cuisines to dietary preferences, our cafeteria caters to all
+                    tastes while ensuring that each meal contributes to your well-being. At Amity, we believe that great
+                    food fuels great minds.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our mission is to empower students with the skills, knowledge, and values necessary to excel in an
+            ever-changing world. We believe in creating well-rounded individuals who not only thrive academically but
+            also make a positive impact on society.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
